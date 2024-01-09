@@ -15,7 +15,7 @@ const Navitems = () => {
     { label: 'Discounts', icon: <BadgePercent /> },
     { label: 'Audience', icon: <Users /> },
     { label: 'Appearance', icon: <Palette /> },
-    { label: 'Plugin', icon: <Zap /> },
+     { label: 'Plugin', icon: <Zap /> },
   ];
 
   const defaultSelectedLabel = 'Payments';
@@ -26,15 +26,15 @@ const Navitems = () => {
       {navItems.map((item, index) => (
         <div
           key={index}
-          className={`flex  items-center  text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-gray-800 hover:text-white ${item.label === defaultSelectedLabel ? 'bg-gray-800 text-white ' : ''}`}
+          className={`flex items-center  text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-gray-800 hover:text-white ${item.label === defaultSelectedLabel ? 'bg-gray-800 text-white ' : ''}`}
         >
           {collapsed ? (
             <div className="p-2 -mx-2.5 text-sm ">{item.icon}</div>
           ) : (
             <>
 
-              <div className="p-2 text-sm">{item.icon}</div>
-              <div className="p-2.5 text-sm">{item.label}</div>
+              <div className="p-1 text-xs">{item.icon}</div>
+              <div className="p-1.5 text-xs">{item.label}</div>
             </>
           )}
         </div>
