@@ -73,19 +73,19 @@ const PaymentTable = () => {
               <div className='flex flex-row border p-2'>Sort <ArrowDownUp className='p-0.5 text-gray-600'/></div> <div className='flex flex-row border p-2'><Download className='p-0.5 text-gray-600'/></div>
             </div>
           </div>
-          <table className="min-w-full m-1">
+          <table className="min-w-full mx-5 p-10 ">
             <thead>
-              <tr className="bg-gray-200">
-                <th className="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-500 tracking-wider">
+              <tr className="bg-gray-200 ">
+                <th className="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 tracking-wider">
                   Order ID
                 </th>
-                <th className="px-6 py-3 border-b border-gray-200 text-left text-xs leading-4 font-medium text-gray-500 tracking-wider">
+                <th className="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 tracking-wider">
                   Order date
                 </th>
-                <th className="px-6 py-3 border-b border-gray-200 text-right text-xs leading-4 font-medium text-gray-500 tracking-wider">
+                <th className="px-6 py-3 border-b border-gray-200 text-right text-xs  font-medium text-gray-500 tracking-wider">
                   Order amount
                 </th>
-                <th className="px-6 py-3 border-b border-gray-200 text-right text-xs leading-4 font-medium text-gray-500 tracking-wider">
+                <th className="px-6 py-3 border-b border-gray-200 text-right text-xs pr-10 font-medium text-gray-500 tracking-wider">
                   Transaction fees
                 </th>
               </tr>
@@ -103,7 +103,7 @@ const PaymentTable = () => {
                     <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500 text-right ">
                       {orderAmount}
                     </td>
-                    <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-500 text-right  ">
+                    <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 pr-10 text-gray-500 text-right  ">
                       {transactionFees}
                     </td>
                   </tr>
