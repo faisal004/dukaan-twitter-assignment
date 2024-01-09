@@ -26,7 +26,7 @@ const Navitems = () => {
       {navItems.map((item, index) => (
         <div
           key={index}
-          className={`flex items-center  text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-gray-800 hover:text-white ${item.label === defaultSelectedLabel ? 'bg-gray-800 text-white ' : ''}`}
+          className={`flex items-center  text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-[#2a3557] hover:text-white ${item.label === defaultSelectedLabel ? 'bg-[#2a3557] text-white ' : ''}`}
         >
           {collapsed ? (
             <div className="p-2 -mx-2.5 text-sm ">{item.icon}</div>

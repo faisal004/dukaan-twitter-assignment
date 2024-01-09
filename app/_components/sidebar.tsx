@@ -8,7 +8,7 @@ const Sidebar = () => {
   const { collapsed } = useSidebar((state) => state)
   return (
     <div
-      className={`bg-[#0a1223] h-full fixed left-0 p-2 ${
+      className={`bg-[#1E2640] h-full fixed left-0 p-2 ${
         collapsed ? 'w-20' : 'w-60'
       }`}
     >
