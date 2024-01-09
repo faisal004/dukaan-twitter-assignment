@@ -73,7 +73,8 @@ const PaymentTable = () => {
               <div className='flex flex-row border p-2'>Sort <ArrowDownUp className='p-0.5 text-gray-600'/></div> <div className='flex flex-row border p-2'><Download className='p-0.5 text-gray-600'/></div>
             </div>
           </div>
-          <table className="min-w-full mx-5 p-10 ">
+          <div className='bg-white p-5'>
+          <table className="min-w-full   ">
             <thead>
               <tr className="bg-gray-200 ">
                 <th className="px-6 py-3 border-b border-gray-200 text-left text-xs font-medium text-gray-500 tracking-wider">
@@ -90,7 +91,7 @@ const PaymentTable = () => {
                 </th>
               </tr>
             </thead>
-            <tbody className="bg-white">
+            <tbody className="bg-white ">
               {tableData.map(
                 ({ orderId, orderDate, orderAmount, transactionFees }) => (
                   <tr key={orderId}>
@@ -111,6 +112,7 @@ const PaymentTable = () => {
               )}
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </>

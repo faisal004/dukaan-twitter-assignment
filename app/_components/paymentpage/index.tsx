@@ -9,7 +9,7 @@ const Paymentpage = () => {
   const { collapsed } = useSidebar((state) => state)
   return (
     <div
-      className={` text-black  ml-[240px] ${
+      className={` text-black  ml-[240px] bg-slate-100 ${
         collapsed ? 'ml-[80px]' : 'ml-[240px]'
       }`}
     >

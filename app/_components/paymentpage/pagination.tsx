@@ -4,13 +4,13 @@ const Paymentpagination = () => {
       <nav className="flex">
         <a
           href="#"
-          className="px-4 py-2 mx-1 font-semibold text-gray-700 hover:text-white hover:bg-blue-500 border rounded-md"
+          className="px-4 py-2 mx-1 font-semibold text-gray-700 bg-white hover:text-white hover:bg-blue-500 border rounded-md"
         >
           &laquo; Prev
         </a>
         <a
           href="#"
-          className="px-4 py-2 mx-1 font-semibold text-gray-700 bg-gray-200 border rounded-md"
+          className="px-4 py-2 mx-1 font-semibold  text-gray-700 bg-gray-200 border rounded-md"
         >
           1
         </a>
@@ -29,7 +29,7 @@ const Paymentpagination = () => {
 
         <a
           href="#"
-          className="px-4 py-2 mx-1 font-semibold text-gray-700 hover:text-white hover:bg-blue-500 border rounded-md"
+          className="px-4 py-2 mx-1 font-semibold text-gray-700 bg-white hover:text-white hover:bg-blue-500 border rounded-md"
         >
           Next &raquo;
         </a>
