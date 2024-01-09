@@ -1,4 +1,5 @@
 import { ArrowDownIcon, ChevronDown, HelpCircle, Volume2 } from 'lucide-react'
+import Image from 'next/image'
 
 const PaymentHeader = () => {
   return (
@@ -10,9 +11,9 @@ const PaymentHeader = () => {
           <div className="">How it works</div>
         </div>
       </div>
-      <div className='w-80 '><input className='bg-gray-100 p-2 rounded-md w-full ' placeholder='Search features ,tutorials, etc. '/></div>
-      <div className='flex p-2 gap-1 '><Volume2 className='bg-gray-300 rounded-full p-0.5'/>
-      <ChevronDown className='bg-gray-300 rounded-full p-0.5'/>
+      <div className='w-80 '><input className='bg-gray-100 p-2 rounded-md w-full ' placeholder=' Search features ,tutorials, etc. '/></div>
+      <div className='flex  gap-1 '><Image src="/download.svg" alt="something" width="35" height="25"/>
+      <Image src="/downloaddown.svg" alt="something" width="35" height="35" className='p-2 my-0.5 bg-gray-200 rounded-3xl'/>
       </div>
     </div>
   )

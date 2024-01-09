@@ -1,4 +1,4 @@
-import { ArrowDownUp, Download } from 'lucide-react'
+import { ArrowDownUp, Download, Info } from 'lucide-react'
 import React from 'react'
 
 const tableData = [

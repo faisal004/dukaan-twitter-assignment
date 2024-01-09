@@ -6,7 +6,7 @@ const Paymentpagination = () => {
           href="#"
           className="px-4 py-2 mx-1 font-semibold text-gray-700 bg-white hover:text-white hover:bg-blue-500 border rounded-md"
         >
-          &laquo; Prev
+          &laquo; Previous
         </a>
         <a
           href="#"

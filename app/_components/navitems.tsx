@@ -22,16 +22,17 @@ const Navitems = () => {
   const { collapsed } = useSidebar((state) => state);
 
   return (
-    <div className={`p-3 ${collapsed ? 'flex-col' : 'flex-row'}`}>
+    <div className={`pr-3 mt-2  ${collapsed ? 'flex-col' : 'flex-row'}`}>
       {navItems.map((item, index) => (
         <div
           key={index}
-          className={`flex items-center text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-gray-800 hover:text-white ${item.label === defaultSelectedLabel ? 'bg-gray-800 text-white ' : ''}`}
+          className={`flex  items-center  text-gray-400 justify-start px-3 max-h-full cursor-pointer hover:bg-gray-800 hover:text-white ${item.label === defaultSelectedLabel ? 'bg-gray-800 text-white ' : ''}`}
         >
           {collapsed ? (
             <div className="p-2 -mx-2.5 text-sm ">{item.icon}</div>
           ) : (
             <>
+
               <div className="p-2 text-sm">{item.icon}</div>
               <div className="p-2.5 text-sm">{item.label}</div>
             </>

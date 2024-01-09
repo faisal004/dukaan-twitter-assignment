@@ -11,8 +11,8 @@ const NavHeading = () => {
         <Image src="/logo.svg" alt="pictue" height="10" width="20" />
       </div>
     )}
-   {!collapsed &&(<div className="flex flex-row justify-between p-2">
-   <div className="justify-center flex bg-white w-16 rounded-md">
+   {!collapsed &&(<div className="flex flex-row justify-between p-4">
+   <div className="justify-center flex bg-white w-10 h-10 rounded-md">
      <Image src="/logo.svg" alt="pictue" height="10" width="20" />
    </div>
    <div>
