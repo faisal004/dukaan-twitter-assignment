@@ -12,13 +12,16 @@ const NavHeading = () => {
       </div>
     )}
    {!collapsed &&(<div className="flex flex-row justify-between p-4">
-   <div className="justify-center flex bg-white w-10 h-10 rounded-md">
+    <div className='flex flex-row gap-2 '>
+    <div className="justify-center flex bg-white w-10 h-10 rounded-md ">
      <Image src="/logo.svg" alt="pictue" height="10" width="20" />
    </div>
-   <div>
-     <div className='text-white'>Nishyam</div>{' '}
+   <div className=''>
+     <div className='text-white '>Nishyam</div>{' '}
      <div className="text-sm text-slate-400 underline">Visit store</div>
    </div>
+    </div>
+  
    <div className='pt-2 text-white'>
      <ChevronDown />
    </div>
